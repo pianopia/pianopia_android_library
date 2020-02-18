@@ -33,8 +33,8 @@ uploadArchives {
     repositories {
         mavenDeployer {
             repository url: "file://${repo.absolutePath}"
-            pom.version = '0.0.2'
-            pom.groupId = 'jp.co.museit'
+            pom.version = '0.0.3'
+            pom.groupId = 'jp.co.museit.pianopia'
             pom.artifactId = 'pianopia_android_library'
         }
     }
@@ -47,7 +47,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    compile "androidx.core:core-ktx:+"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
 repositories {
