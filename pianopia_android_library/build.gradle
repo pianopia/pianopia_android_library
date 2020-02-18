@@ -32,7 +32,7 @@ uploadArchives {
         mavenDeployer {
             repository url: "file://${repo.absolutePath}"
             pom.version = '0.0.1'
-            pom.groupId = 'jp.co.museit.pianopia'
+            pom.groupId = 'jp.co.museit'
             pom.artifactId = 'pianopia_android_library'
         }
     }
